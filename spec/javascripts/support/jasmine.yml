@@ -1,0 +1,18 @@
+src_dir: .
+
+src_files:
+  - "vendor/jquery/jquery/dist/jquery.js"
+  - "vendor/jquery/jquery-ui/dist/jquery-ui.js"
+  - "vendor/documentcloud/underscore/underscore.js"
+  - "vendor/documentcloud/backbone/backbone.js"
+  - "vendor/appendto/jquery-mockjax/jquery.mockjax.js"
+  - "app/assets/javascripts/namespace.js"
+  - "app/assets/javascripts/models/*.js"
+  - "app/assets/javascripts/collections/*.js"
+  - "app/assets/javascripts/routers/Router.js"
+  - "app/assets/javascripts/views/*.js"
+
+spec_dir: spec/javascripts
+
+spec_files:
+  - "**/*Spec.*"

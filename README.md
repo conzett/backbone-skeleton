@@ -1,4 +1,5 @@
 After cloning:
+
 1. `bundle install` to get required gems
 2. `git submodule init && git submodule update` to pull in submodules
 3. Install node if you don't have it `brew install node` on OS X `sudo apt-get install nodejs` on Debian

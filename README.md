@@ -9,4 +9,4 @@ After cloning:
 7. Build jQuery `grunt`
 8. Install QT for headless webkit testing if you don't have it `brew install qt` on OS X
 9. Run `guard -g "jasmine"` to run headless jasmine specs via Guard
-10. Launch test page which will automatically handle Backbone assets via sprockets `ruby run.rb`
+10. Launch test page which will automatically handle Backbone assets via sprockets `rackup` or `thin start` etc.

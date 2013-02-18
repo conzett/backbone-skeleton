@@ -7,45 +7,9 @@
           type="text/css" media="screen"/>
   </head>
   <body>
-    <div id="container"></div>
+    <div id="container">
+      <h1>Test Page</h1>
+    </div>
     <script src="/assets/javascripts/application.js"></script>
   </body>
 </html>
-
-<script>
-  var ingredients = [
-    { name : 'Shrimp', vegitarian : false },
-    { name : 'Rice',   vegitarian : true },
-    { name : 'Kale',   vegitarian : true }
-  ];
-
-  var recipes = [
-    {
-      name : 'Herp',
-      spicy : true,
-      vegitarian : false,
-      recipee_ingredients : [
-        { ingredient : { name : 'Shrimp' }, quantity : '8 oz'  },
-        { ingredient : { name : 'Rice'   }, quantity : '24 oz' }
-      ]
-    },
-    {
-      name : 'Derp',
-      spicy : false,
-      vegitarian : false,
-      recipee_ingredients : [
-        { ingredient : { name : 'Shrimp' }, quantity : '8 oz'  },
-        { ingredient : { name : 'Kale'   }, quantity : '12 oz' }
-      ]
-    }
-  ];
-</script>
-
-<script>
-  App.recipeListView = new App.RecipeListView({
-    collection : new App.Recipes(recipes)
-  });
-
-  $('#container').append(App.recipeListView.$el);
-
-</script>

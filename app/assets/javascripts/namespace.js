@@ -1,1 +1,1 @@
-window.SomeNamespace = {}
+window.App = {};
